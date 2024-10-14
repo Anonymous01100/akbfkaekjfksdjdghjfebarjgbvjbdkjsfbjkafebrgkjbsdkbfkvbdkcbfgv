@@ -18,7 +18,7 @@ jobs:
 
     - name: Install required dependencies
       run: |
-        pip install pygithub pyngrok gradio requests
+        pip install pygithub pyngrok gradio groq requests
 
     - name: Download Python Script
       run: |
